@@ -17,6 +17,12 @@
 		0439985A262C2D7000E2F952 /* MyBasicCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04399859262C2D7000E2F952 /* MyBasicCard.swift */; };
 		04399861262C67D900E2F952 /* MyCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04399860262C67D900E2F952 /* MyCard.swift */; };
 		04399864262C7DF900E2F952 /* MyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04399863262C7DF900E2F952 /* MyList.swift */; };
+		04399867262DF47800E2F952 /* MyNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04399866262DF47800E2F952 /* MyNavigationView.swift */; };
+		0439986A262F1A6600E2F952 /* MyGeometryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04399869262F1A6600E2F952 /* MyGeometryReader.swift */; };
+		0439986D262F329D00E2F952 /* MyGeometryVStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0439986C262F329D00E2F952 /* MyGeometryVStack.swift */; };
+		04399870263065A700E2F952 /* MyTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0439986F263065A700E2F952 /* MyTabView.swift */; };
+		043998732630716100E2F952 /* MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043998722630716100E2F952 /* MyView.swift */; };
+		0439987626307A5700E2F952 /* MyCustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0439987526307A5700E2F952 /* MyCustomTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +38,12 @@
 		04399859262C2D7000E2F952 /* MyBasicCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBasicCard.swift; sourceTree = "<group>"; };
 		04399860262C67D900E2F952 /* MyCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCard.swift; sourceTree = "<group>"; };
 		04399863262C7DF900E2F952 /* MyList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyList.swift; sourceTree = "<group>"; };
+		04399866262DF47800E2F952 /* MyNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNavigationView.swift; sourceTree = "<group>"; };
+		04399869262F1A6600E2F952 /* MyGeometryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGeometryReader.swift; sourceTree = "<group>"; };
+		0439986C262F329D00E2F952 /* MyGeometryVStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGeometryVStack.swift; sourceTree = "<group>"; };
+		0439986F263065A700E2F952 /* MyTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabView.swift; sourceTree = "<group>"; };
+		043998722630716100E2F952 /* MyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyView.swift; sourceTree = "<group>"; };
+		0439987526307A5700E2F952 /* MyCustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +85,12 @@
 				04399849262C0DA000E2F952 /* Preview Content */,
 				04399856262C0EBA00E2F952 /* MyProjectCard.swift */,
 				04399863262C7DF900E2F952 /* MyList.swift */,
+				04399866262DF47800E2F952 /* MyNavigationView.swift */,
+				04399869262F1A6600E2F952 /* MyGeometryReader.swift */,
+				0439986C262F329D00E2F952 /* MyGeometryVStack.swift */,
+				0439986F263065A700E2F952 /* MyTabView.swift */,
+				0439987526307A5700E2F952 /* MyCustomTabView.swift */,
+				043998722630716100E2F952 /* MyView.swift */,
 				04399859262C2D7000E2F952 /* MyBasicCard.swift */,
 				04399860262C67D900E2F952 /* MyCard.swift */,
 			);
@@ -157,11 +175,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				043998732630716100E2F952 /* MyView.swift in Sources */,
 				04399842262C0D9F00E2F952 /* AppDelegate.swift in Sources */,
+				04399870263065A700E2F952 /* MyTabView.swift in Sources */,
 				0439985A262C2D7000E2F952 /* MyBasicCard.swift in Sources */,
+				04399867262DF47800E2F952 /* MyNavigationView.swift in Sources */,
 				04399857262C0EBA00E2F952 /* MyProjectCard.swift in Sources */,
 				04399844262C0D9F00E2F952 /* SceneDelegate.swift in Sources */,
+				0439986D262F329D00E2F952 /* MyGeometryVStack.swift in Sources */,
+				0439987626307A5700E2F952 /* MyCustomTabView.swift in Sources */,
 				04399846262C0D9F00E2F952 /* ContentView.swift in Sources */,
+				0439986A262F1A6600E2F952 /* MyGeometryReader.swift in Sources */,
 				04399864262C7DF900E2F952 /* MyList.swift in Sources */,
 				04399861262C67D900E2F952 /* MyCard.swift in Sources */,
 			);
