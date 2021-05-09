@@ -16,14 +16,24 @@ class RandomUserViewModel: ObservableObject{
     
     @Published var randomUsers = [RandomUser]()
     
+    var refreshActionSubject = PassthroughSubject<(), Never>()
+    
     var baseUrl = "https://randomuser.me/api/?results=100"
     
     init(){
         print(#fileID, #function, #line, "")
         fetchRandomUsers()
+        
+        refreshActionSubject.sink(receiveValue: { [weak self] _ in
+            guard let self = self else { return }
+            
+            print("RandomUserViewModel - init - refreshActionSubject")
+            self.fetchRandomUsers()
+        })
+        .store(in: &subscription)
     }
     
-    func fetchRandomUsers(){
+    fileprivate func fetchRandomUsers(){
         print(#fileID, #function, #line, "")
         AF.request(baseUrl)
             .publishDecodable(type: RandomUserResponse.self)
