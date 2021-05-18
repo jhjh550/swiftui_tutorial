@@ -17,7 +17,7 @@ class RandomUserViewModel: ObservableObject{
     @Published var randomUsers = [RandomUser]()
     
     var refreshActionSubject = PassthroughSubject<(), Never>()
-    
+
     var baseUrl = "https://randomuser.me/api/?results=100"
     
     init(){
@@ -35,7 +35,7 @@ class RandomUserViewModel: ObservableObject{
     
     fileprivate func fetchRandomUsers(){
         print(#fileID, #function, #line, "")
-        AF.request(baseUrl)
+        AF.request(RandomUserRouter.getUsers())
             .publishDecodable(type: RandomUserResponse.self)
             .compactMap{ $0.value }
             .map{ $0.results }

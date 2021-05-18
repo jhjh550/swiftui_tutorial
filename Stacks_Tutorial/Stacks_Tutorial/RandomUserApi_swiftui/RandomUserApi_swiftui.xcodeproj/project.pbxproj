@@ -18,6 +18,7 @@
 		049F11232645455500D2063C /* RandomUser_ResponseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049F11222645455500D2063C /* RandomUser_ResponseData.swift */; };
 		049F112526454B6B00D2063C /* RandomUserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049F112426454B6B00D2063C /* RandomUserViewModel.swift */; };
 		049F11282647DFF500D2063C /* Introspect in Frameworks */ = {isa = PBXBuildFile; productRef = 049F11272647DFF500D2063C /* Introspect */; };
+		049F112B2647FE0A00D2063C /* RandomUserRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049F112A2647FE0A00D2063C /* RandomUserRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		049F111C2645344E00D2063C /* RandomUserRomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomUserRomView.swift; sourceTree = "<group>"; };
 		049F11222645455500D2063C /* RandomUser_ResponseData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomUser_ResponseData.swift; sourceTree = "<group>"; };
 		049F112426454B6B00D2063C /* RandomUserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomUserViewModel.swift; sourceTree = "<group>"; };
+		049F112A2647FE0A00D2063C /* RandomUserRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomUserRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 		049F110626452F8600D2063C /* RandomUserApi_swiftui */ = {
 			isa = PBXGroup;
 			children = (
+				049F11292647FDEF00D2063C /* API */,
 				049F11212645454700D2063C /* Data */,
 				049F111626452FE300D2063C /* UI */,
 				049F110726452F8600D2063C /* RandomUserApi_swiftuiApp.swift */,
@@ -101,6 +104,14 @@
 				049F112426454B6B00D2063C /* RandomUserViewModel.swift */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		049F11292647FDEF00D2063C /* API */ = {
+			isa = PBXGroup;
+			children = (
+				049F112A2647FE0A00D2063C /* RandomUserRouter.swift */,
+			);
+			path = API;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,6 +199,7 @@
 				049F11232645455500D2063C /* RandomUser_ResponseData.swift in Sources */,
 				049F112526454B6B00D2063C /* RandomUserViewModel.swift in Sources */,
 				049F111D2645344E00D2063C /* RandomUserRomView.swift in Sources */,
+				049F112B2647FE0A00D2063C /* RandomUserRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
